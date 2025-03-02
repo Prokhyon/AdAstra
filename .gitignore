@@ -1,0 +1,16 @@
+# Prototype non publié
+PadAstra/
+
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcuserstate
+
+# Ressources sous droits d'auteur, à fournir localement (voir README)
+AdAstraVitals/AdAstraVitals/Assets.xcassets/AdAstraPhotos/*/*.jpg
+AdAstraVitals/AdAstraVitals/Assets.xcassets/AdAstraPhotos/*/*.png
+*/*/Assets.xcassets/galaxyMap.imageset/*.jpg
+AdAstraVitals/AdAstraVitals/ImperialAlarm.mp3

@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		783CDCA52D6C9CBB008D507A /* MultipeerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CDC992D6C9CBB008D507A /* MultipeerManager.swift */; };
+		783CDCA82D6C9CBB008D507A /* MultipeerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CDC992D6C9CBB008D507A /* MultipeerManager.swift */; };
+		783CDCBD2D6C9CE5008D507A /* SharedCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CDCBC2D6C9CDD008D507A /* SharedCode.swift */; };
+		783CDCBE2D6C9CE5008D507A /* SharedCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CDCBC2D6C9CDD008D507A /* SharedCode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78F8913E2CB999F70090888A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78F891242CB999F50090888A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F8912B2CB999F50090888A;
+			remoteInfo = AdAstraVitals;
+		};
+		78F891482CB999F70090888A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78F891242CB999F50090888A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F8912B2CB999F50090888A;
+			remoteInfo = AdAstraVitals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		783CDC992D6C9CBB008D507A /* MultipeerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerManager.swift; sourceTree = "<group>"; };
+		783CDCBC2D6C9CDD008D507A /* SharedCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedCode.swift; sourceTree = "<group>"; };
+		78BF56EC2D625D990058D71F /* AdAstraPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdAstraPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F8912C2CB999F50090888A /* AdAstraVitals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdAstraVitals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F8913D2CB999F70090888A /* AdAstraVitalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdAstraVitalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F891472CB999F70090888A /* AdAstraVitalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdAstraVitalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		78B7A60C2D61F5FE00E3A84D /* Exceptions for "AdAstraVitals" folder in "AdAstraVitals" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 78F8912B2CB999F50090888A /* AdAstraVitals */;
+		};
+		78BF56FB2D625DE90058D71F /* Exceptions for "AdAstraPad" folder in "AdAstraPad" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 78BF56EB2D625D990058D71F /* AdAstraPad */;
+		};
+		78BF56FF2D625E910058D71F /* Exceptions for "AdAstraVitals" folder in "AdAstraPad" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+			);
+			target = 78BF56EB2D625D990058D71F /* AdAstraPad */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		78BF56ED2D625D990058D71F /* AdAstraPad */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				78BF56FB2D625DE90058D71F /* Exceptions for "AdAstraPad" folder in "AdAstraPad" target */,
+			);
+			path = AdAstraPad;
+			sourceTree = "<group>";
+		};
+		78F8912E2CB999F50090888A /* AdAstraVitals */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				78B7A60C2D61F5FE00E3A84D /* Exceptions for "AdAstraVitals" folder in "AdAstraVitals" target */,
+				78BF56FF2D625E910058D71F /* Exceptions for "AdAstraVitals" folder in "AdAstraPad" target */,
+			);
+			path = AdAstraVitals;
+			sourceTree = "<group>";
+		};
+		78F891402CB999F70090888A /* AdAstraVitalsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AdAstraVitalsTests;
+			sourceTree = "<group>";
+		};
+		78F8914A2CB999F80090888A /* AdAstraVitalsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AdAstraVitalsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78BF56E92D625D990058D71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F891292CB999F50090888A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F8913A2CB999F70090888A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F891442CB999F70090888A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78BF57032D626B4C0058D71F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78F891232CB999F50090888A = {
+			isa = PBXGroup;
+			children = (
+				783CDCBC2D6C9CDD008D507A /* SharedCode.swift */,
+				783CDC992D6C9CBB008D507A /* MultipeerManager.swift */,
+				78F8912E2CB999F50090888A /* AdAstraVitals */,
+				78F891402CB999F70090888A /* AdAstraVitalsTests */,
+				78F8914A2CB999F80090888A /* AdAstraVitalsUITests */,
+				78BF56ED2D625D990058D71F /* AdAstraPad */,
+				78BF57032D626B4C0058D71F /* Frameworks */,
+				78F8912D2CB999F50090888A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78F8912D2CB999F50090888A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78F8912C2CB999F50090888A /* AdAstraVitals.app */,
+				78F8913D2CB999F70090888A /* AdAstraVitalsTests.xctest */,
+				78F891472CB999F70090888A /* AdAstraVitalsUITests.xctest */,
+				78BF56EC2D625D990058D71F /* AdAstraPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78BF56EB2D625D990058D71F /* AdAstraPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78BF56F72D625D9B0058D71F /* Build configuration list for PBXNativeTarget "AdAstraPad" */;
+			buildPhases = (
+				78BF56E82D625D990058D71F /* Sources */,
+				78BF56E92D625D990058D71F /* Frameworks */,
+				78BF56EA2D625D990058D71F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				78BF56ED2D625D990058D71F /* AdAstraPad */,
+			);
+			name = AdAstraPad;
+			packageProductDependencies = (
+			);
+			productName = AdAstraPad;
+			productReference = 78BF56EC2D625D990058D71F /* AdAstraPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78F8912B2CB999F50090888A /* AdAstraVitals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F891512CB999F80090888A /* Build configuration list for PBXNativeTarget "AdAstraVitals" */;
+			buildPhases = (
+				78F891282CB999F50090888A /* Sources */,
+				78F891292CB999F50090888A /* Frameworks */,
+				78F8912A2CB999F50090888A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				78F8912E2CB999F50090888A /* AdAstraVitals */,
+			);
+			name = AdAstraVitals;
+			packageProductDependencies = (
+			);
+			productName = AdAstraVitals;
+			productReference = 78F8912C2CB999F50090888A /* AdAstraVitals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78F8913C2CB999F70090888A /* AdAstraVitalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F891542CB999F80090888A /* Build configuration list for PBXNativeTarget "AdAstraVitalsTests" */;
+			buildPhases = (
+				78F891392CB999F70090888A /* Sources */,
+				78F8913A2CB999F70090888A /* Frameworks */,
+				78F8913B2CB999F70090888A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78F8913F2CB999F70090888A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				78F891402CB999F70090888A /* AdAstraVitalsTests */,
+			);
+			name = AdAstraVitalsTests;
+			packageProductDependencies = (
+			);
+			productName = AdAstraVitalsTests;
+			productReference = 78F8913D2CB999F70090888A /* AdAstraVitalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78F891462CB999F70090888A /* AdAstraVitalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F891572CB999F80090888A /* Build configuration list for PBXNativeTarget "AdAstraVitalsUITests" */;
+			buildPhases = (
+				78F891432CB999F70090888A /* Sources */,
+				78F891442CB999F70090888A /* Frameworks */,
+				78F891452CB999F70090888A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78F891492CB999F70090888A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				78F8914A2CB999F80090888A /* AdAstraVitalsUITests */,
+			);
+			name = AdAstraVitalsUITests;
+			packageProductDependencies = (
+			);
+			productName = AdAstraVitalsUITests;
+			productReference = 78F891472CB999F70090888A /* AdAstraVitalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78F891242CB999F50090888A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					78BF56EB2D625D990058D71F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					78F8912B2CB999F50090888A = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					78F8913C2CB999F70090888A = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 78F8912B2CB999F50090888A;
+					};
+					78F891462CB999F70090888A = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 78F8912B2CB999F50090888A;
+					};
+				};
+			};
+			buildConfigurationList = 78F891272CB999F50090888A /* Build configuration list for PBXProject "AdAstraVitals" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78F891232CB999F50090888A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 78F8912D2CB999F50090888A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78F8912B2CB999F50090888A /* AdAstraVitals */,
+				78F8913C2CB999F70090888A /* AdAstraVitalsTests */,
+				78F891462CB999F70090888A /* AdAstraVitalsUITests */,
+				78BF56EB2D625D990058D71F /* AdAstraPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78BF56EA2D625D990058D71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F8912A2CB999F50090888A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F8913B2CB999F70090888A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F891452CB999F70090888A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78BF56E82D625D990058D71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783CDCBE2D6C9CE5008D507A /* SharedCode.swift in Sources */,
+				783CDCA82D6C9CBB008D507A /* MultipeerManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F891282CB999F50090888A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783CDCBD2D6C9CE5008D507A /* SharedCode.swift in Sources */,
+				783CDCA52D6C9CBB008D507A /* MultipeerManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F891392CB999F70090888A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F891432CB999F70090888A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78F8913F2CB999F70090888A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78F8912B2CB999F50090888A /* AdAstraVitals */;
+			targetProxy = 78F8913E2CB999F70090888A /* PBXContainerItemProxy */;
+		};
+		78F891492CB999F70090888A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78F8912B2CB999F50090888A /* AdAstraVitals */;
+			targetProxy = 78F891482CB999F70090888A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		78BF56F82D625D9B0058D71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AdAstraPad/AdAstraPad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdAstraPad/Preview Content\"";
+				DEVELOPMENT_TEAM = EE4866DK5Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdAstraPad/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "\"Give it to me\"";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = loristhomas.AdAstraPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78BF56F92D625D9B0058D71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AdAstraPad/AdAstraPad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdAstraPad/Preview Content\"";
+				DEVELOPMENT_TEAM = EE4866DK5Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdAstraPad/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "\"Give it to me\"";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = loristhomas.AdAstraPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78F8914F2CB999F80090888A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78F891502CB999F80090888A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		78F891522CB999F80090888A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AdAstraVitals/AdAstraVitals.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdAstraVitals/Preview Content\"";
+				DEVELOPMENT_TEAM = EE4866DK5Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdAstraVitals/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app needs local network access to connect to the macOS app.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = loristhomas.AdAstraVitals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		78F891532CB999F80090888A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AdAstraVitals/AdAstraVitals.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdAstraVitals/Preview Content\"";
+				DEVELOPMENT_TEAM = EE4866DK5Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdAstraVitals/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app needs local network access to connect to the macOS app.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = loristhomas.AdAstraVitals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		78F891552CB999F80090888A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EE4866DK5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = loristhomas.AdAstraVitalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdAstraVitals.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdAstraVitals";
+			};
+			name = Debug;
+		};
+		78F891562CB999F80090888A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EE4866DK5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = loristhomas.AdAstraVitalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdAstraVitals.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdAstraVitals";
+			};
+			name = Release;
+		};
+		78F891582CB999F80090888A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EE4866DK5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = loristhomas.AdAstraVitalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AdAstraVitals;
+			};
+			name = Debug;
+		};
+		78F891592CB999F80090888A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EE4866DK5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = loristhomas.AdAstraVitalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AdAstraVitals;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78BF56F72D625D9B0058D71F /* Build configuration list for PBXNativeTarget "AdAstraPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BF56F82D625D9B0058D71F /* Debug */,
+				78BF56F92D625D9B0058D71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F891272CB999F50090888A /* Build configuration list for PBXProject "AdAstraVitals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F8914F2CB999F80090888A /* Debug */,
+				78F891502CB999F80090888A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F891512CB999F80090888A /* Build configuration list for PBXNativeTarget "AdAstraVitals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F891522CB999F80090888A /* Debug */,
+				78F891532CB999F80090888A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F891542CB999F80090888A /* Build configuration list for PBXNativeTarget "AdAstraVitalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F891552CB999F80090888A /* Debug */,
+				78F891562CB999F80090888A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F891572CB999F80090888A /* Build configuration list for PBXNativeTarget "AdAstraVitalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F891582CB999F80090888A /* Debug */,
+				78F891592CB999F80090888A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78F891242CB999F50090888A /* Project object */;
+}
